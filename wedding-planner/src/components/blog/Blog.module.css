@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+.blogTitle{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin-top: 30px;
+}
+
+.blogPictures {
+    height: 310px;
+}
+
+.blogPicturesDescribe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: none;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.blogPictures img {
+    height: 305px;
+    object-fit: cover;
+    overflow-x: hidden;
+}
+
+
+.blogPictures img:hover {
+    cursor: pointer;
+    filter: brightness(40%);
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+
+.blogPictures img:hover ~ .blogPicturesDescribe{
+    display: block;
+    transition: ease-in-out .5s;
+}
+
+
+@media screen and (max-width: 1025px){
+    .blogPicturesDescribe{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .blogPicturesDescribe{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .blogPicturesDescribe{
+        font-size: 40px;
+    }
+}
