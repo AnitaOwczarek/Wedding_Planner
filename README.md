@@ -16,9 +16,9 @@ Responsive Layout: Designed to be responsive, ensuring accessibility and a seaml
 ## How to Run the Project
 1. Clone the repository:
   Clone the repository using Git:
-  git clone https://github.com/your-username/wedding-planner.git
+  git clone https://github.com/AnitaOwczarek/Wedding_Planner.git
 2. Open project in Visual Studia code or other development enviroment
-3. Navigate to Project Directory
+3. Navigate to Project Directory: 
    cd wedding-planner
 4. Install Dependencies:
    npm install
